@@ -231,7 +231,7 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: 'SAVE_20241225_171758 - Payal Sawant',
+    photo: 'file_000000001d0071fa9a525b6d708237ef - Dnyaneshwari Sayam',
     name: '[Dnyaneshwari Sayam]',
     year: 'Final Year · Computer Engineering',
     bio: 'App developer',
