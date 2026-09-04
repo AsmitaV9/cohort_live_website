@@ -146,7 +146,7 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: '20260328_164856 - Sakshi Madane',
+    photo: '20260328_164856 - Sakshi Madane.heic',
     name: '[Sakshi Madane]',
     role: 'CTO',
     year: 'Final Year · Computer Engineering',
@@ -166,7 +166,7 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: 'file_0000000018947206b5bb981076adcbc5 - vaishnavi dhole',
+    photo: 'file_0000000018947206b5bb981076adcbc5 - vaishnavi dhole.png',
     name: '[Vaishnavi Dhole]',
     role: 'COO',
     year: 'Final Year · Computer Engineering',
@@ -176,7 +176,7 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: 'IMG_20260904_185137 - Pragati Rajput',
+    photo: 'IMG_20260904_185137 - Pragati Rajput.jpg',
     name: '[Pragati Rajput]',
     year: 'Final Year · Computer Engineering',
     bio: 'Placeholder — replace with technical skills.',
@@ -185,7 +185,7 @@ export const FOUNDERS: {
     github: '#',
   },
   {
-    photo: 'IMG_20260819_230753 - Shreya Nikkam',
+    photo: 'IMG_20260819_230753 - Shreya Nikkam.jpg',
     name: '[Shreya Nikkam]',
     year: 'Final Year · Computer Engineering',
     bio: 'Placeholder — replace with design experience.',
@@ -194,7 +194,7 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: 'IMG-20260904-WA0083 - Patel Chetna',
+    photo: 'IMG-20260904-WA0083 - Patel Chetna.jpg',
     name: '[Chetna Patel]',
     year: 'Final Year · Computer Engineering',
     bio: 'Placeholder — replace with research focus.',
@@ -204,7 +204,7 @@ export const FOUNDERS: {
   },
 
   {
-    photo: 'Gemini_Generated_Image_f1y49zf1y49zf1y4 - Gitanjali Narute',
+    photo: 'Gemini_Generated_Image_f1y49zf1y49zf1y4 - Gitanjali Narute.png',
     name: '[Gitanjali Narute]',
     year: 'Final Year · Computer Engineering',
     bio: 'Placeholder — replace with research focus.',
@@ -213,7 +213,7 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: '35714c03-e529-4fed-8e36-c9305f333971 - Poonam Yadav',
+    photo: '35714c03-e529-4fed-8e36-c9305f333971 - Poonam Yadav.png',
     name: '[Poonam Yadav]',
     year: 'Final Year · Computer Engineering',
     bio: 'Placeholder — replace with research focus.',
@@ -222,7 +222,7 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: 'SAVE_20241225_171758 - Payal Sawant',
+    photo: 'SAVE_20241225_171758 - Payal Sawant.jpg',
     name: '[Payal Sawant]',
     year: 'Final Year · Computer Engineering',
     bio: 'Full-stack development',
@@ -231,7 +231,7 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: 'file_000000001d0071fa9a525b6d708237ef - Dnyaneshwari Sayam',
+    photo: 'file_000000001d0071fa9a525b6d708237ef - Dnyaneshwari Sayam.png',
     name: '[Dnyaneshwari Sayam]',
     year: 'Final Year · Computer Engineering',
     bio: 'App developer',
