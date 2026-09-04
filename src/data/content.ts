@@ -136,8 +136,8 @@ export const FOUNDERS: {
   github: string | null;
 }[] = [
   {
-    photo: 'https://images.pexels.com/photos/5308640/pexels-photo-5308640.jpeg?auto=compress&cs=tinysrgb&h=400&w=400',
-    name: '[Founder Name]',
+    photo: 'WhatsApp Image 2026-09-04 at 4.15.27 PM.jpeg',
+    name: '[Asmita Paygude]',
     role: 'CEO',
     year: 'Final Year · Computer Engineering',
     bio: 'Placeholder — replace with founder background.',
