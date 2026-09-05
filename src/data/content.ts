@@ -137,7 +137,7 @@ export const FOUNDERS: {
 }[] = [
   {
     photo: 'AsmitaImage.jpeg',
-    name: '[Asmita Paygude]',
+    name: 'Asmita Paygude',
     role: 'CEO',
     year: 'Final Year · Computer Engineering',
     bio: 'Placeholder — replace with founder background.',
@@ -147,7 +147,7 @@ export const FOUNDERS: {
   },
   {
     photo: 'WhatsApp Image 2026-09-04 at 10.57.30 PM.jpeg',
-    name: '[Sakshi Madane]',
+    name: 'Sakshi Madane',
     role: 'CTO',
     year: 'Final Year · Computer Engineering',
     bio: 'Strong interest in Full Stack Python Development and AI/ML',
@@ -157,7 +157,7 @@ export const FOUNDERS: {
   },
   {
     photo: 'IMG_2219 - riya tilkari.jpeg',
-    name: '[Riya Tilkari]',
+    name: 'Riya Tilkari',
     role: 'CMO',
     year: 'Final Year · Computer Engineering',
     bio: 'Placeholder — replace with marketing experience.',
@@ -167,7 +167,7 @@ export const FOUNDERS: {
   },
   {
     photo: 'file_0000000018947206b5bb981076adcbc5 - vaishnavi dhole.png',
-    name: '[Vaishnavi Dhole]',
+    name: 'Vaishnavi Dhole',
     role: 'COO',
     year: 'Final Year · Computer Engineering',
     bio: 'Passionate about software development and learning new technologies.',
@@ -177,7 +177,7 @@ export const FOUNDERS: {
   },
   {
     photo: 'IMG_20260904_185137 - Pragati Rajput.jpg',
-    name: '[Pragati Rajput]',
+    name: 'Pragati Rajput',
     year: 'Final Year · Computer Engineering',
     bio: 'Placeholder — replace with technical skills.',
     skills: ['Java', 'Frontend Development', 'AI/ML', 'SQL & Databases'],
@@ -186,7 +186,7 @@ export const FOUNDERS: {
   },
   {
     photo: 'IMG_20260819_230753 - Shreya Nikkam.jpg',
-    name: '[Shreya Nikkam]',
+    name: 'Shreya Nikkam',
     year: 'Final Year · Computer Engineering',
     bio: 'Placeholder — replace with design experience.',
     skills: ['Python', 'SQL', 'Excel', 'Power BI', 'Tableau'],
@@ -195,7 +195,7 @@ export const FOUNDERS: {
   },
   {
     photo: 'IMG-20260904-WA0083 - Patel Chetna.jpg',
-    name: '[Chetna Patel]',
+    name: 'Chetna Patel',
     year: 'Final Year · Computer Engineering',
     bio: 'Placeholder — replace with research focus.',
     skills: ['Data Science','Data Analysis'],
@@ -205,7 +205,7 @@ export const FOUNDERS: {
 
   {
     photo: 'Gemini_Generated_Image_f1y49zf1y49zf1y4 - Gitanjali Narute.png',
-    name: '[Gitanjali Narute]',
+    name: 'Gitanjali Narute',
     year: 'Final Year · Computer Engineering',
     bio: 'Placeholder — replace with research focus.',
     skills: ['Java' , 'OOP','Basic Python'],
@@ -214,7 +214,7 @@ export const FOUNDERS: {
   },
   {
     photo: '35714c03-e529-4fed-8e36-c9305f333971 - Poonam Yadav.png',
-    name: '[Poonam Yadav]',
+    name: 'Poonam Yadav',
     year: 'Final Year · Computer Engineering',
     bio: 'Placeholder — replace with research focus.',
     skills: ['Python', 'SQL'],
@@ -223,7 +223,7 @@ export const FOUNDERS: {
   },
   {
     photo: 'SAVE_20241225_171758 - Payal Sawant.jpg',
-    name: '[Payal Sawant]',
+    name: 'Payal Sawant',
     year: 'Final Year · Computer Engineering',
     bio: 'Full-stack development',
     skills: ['Java', 'HTML', 'CSS', 'JavaScript', 'SQL'],
@@ -232,7 +232,7 @@ export const FOUNDERS: {
   },
   {
     photo: 'file_000000001d0071fa9a525b6d708237ef - Dnyaneshwari Sayam.png',
-    name: '[Dnyaneshwari Sayam]',
+    name: 'Dnyaneshwari Sayam',
     year: 'Final Year · Computer Engineering',
     bio: 'App developer',
     skills: ['App development'],
@@ -244,8 +244,8 @@ export const FOUNDERS: {
 
 export const MENTOR = {
   photo: 'https://images.pexels.com/photos/35490806/pexels-photo-35490806.jpeg?auto=compress&cs=tinysrgb&h=500&w=500',
-  name: '[Mentor Name]',
-  designation: '[Designation / Title]',
+  name: 'Prof. Mayur Raut',
+  designation: 'TPO, Sinhgad Institute of Technology, Lonavala',
   department: 'Department of Computer Engineering',
   description:
     'Placeholder — replace with the mentor\'s guidance, academic background, and role in supporting the project.',
@@ -255,7 +255,7 @@ export const COMPANY = {
   name: 'LiveLearn',
   tagline: 'Learning that happens in real time.',
   email: 'contact@livelearn.example',
-  college: '[College / Institution Name]',
+  college: 'Sinhgad Institute of Technology, Lonavala',
   linkedin: '#',
   github: '#',
 };
