@@ -240,7 +240,7 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: 'IMG_20260316_171154289_HDR - DHRITI PALANGE.jpg',
+    photo: 'WhatsApp Image 2026-09-05 at 1.16.24 PM.jpeg',
     name: 'Dhriti Palange',
     year: 'Final Year · Computer Engineering',
     bio: 'Data Science',
@@ -252,18 +252,17 @@ export const FOUNDERS: {
 
 
 export const MENTOR = {
-  photo: 'https://images.pexels.com/photos/35490806/pexels-photo-35490806.jpeg?auto=compress&cs=tinysrgb&h=500&w=500',
+  photo: 'WhatsApp Image 2026-09-05 at 1.00.44 PM.jpeg',
   name: 'Prof. Mayur Raut',
   designation: 'TPO, Sinhgad Institute of Technology, Lonavala',
-  department: 'Department of Computer Engineering',
   description:
-    'Placeholder — replace with the mentor\'s guidance, academic background, and role in supporting the project.',
+    'Supporting students through career guidance, industry engagement, training, and placement opportunities.',
 };
 
 export const COMPANY = {
-  name: 'LiveLearn',
+  name: 'Cohort Live',
   tagline: 'Learning that happens in real time.',
-  email: 'contact@livelearn.example',
+  email: 'contact@CohortLive.example',
   college: 'Sinhgad Institute of Technology, Lonavala',
   linkedin: '#',
   github: '#',
