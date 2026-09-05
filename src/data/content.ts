@@ -146,7 +146,7 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: '20260328_164856 - Sakshi Madane.heic',
+    photo: 'WhatsApp Image 2026-09-04 at 10.57.30 PM.jpeg',
     name: '[Sakshi Madane]',
     role: 'CTO',
     year: 'Final Year · Computer Engineering',
@@ -156,7 +156,7 @@ export const FOUNDERS: {
     github: '#',
   },
   {
-    photo: 'https://images.pexels.com/photos/7717254/pexels-photo-7717254.jpeg?auto=compress&cs=tinysrgb&h=400&w=400',
+    photo: 'IMG_2219 - riya tilkari.jpeg',
     name: '[Riya Tilkari]',
     role: 'CMO',
     year: 'Final Year · Computer Engineering',
