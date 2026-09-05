@@ -239,6 +239,15 @@ export const FOUNDERS: {
     linkedin: '#',
     github: null,
   },
+  {
+    photo: 'IMG_20260316_171154289_HDR - DHRITI PALANGE.jpg',
+    name: 'Dhriti Palange',
+    year: 'Final Year · Computer Engineering',
+    bio: 'Data Science',
+    skills: ['Python','Advance Excel'],
+    linkedin: '#',
+    github: null,
+  },
 ];
 
 
