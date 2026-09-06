@@ -19,7 +19,6 @@ export default function Team() {
           <ScrollReveal delay="reveal-delay-1" className="lg:col-span-7 lg:pt-2">
             <p className="text-lg leading-relaxed text-ink-500">
               Computer Engineering students building a real-time learning platform.
-              Names and photos below are placeholders — replace with actual details.
             </p>
           </ScrollReveal>
         </div>

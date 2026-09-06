@@ -7,14 +7,10 @@ import {
   BarChart3,
   ShieldCheck,
   Lock,
-  Video,
   MessageSquare,
-  CircleCheck,
-  Settings2,
   LogIn,
   PlayCircle,
   DoorOpen,
-  HelpCircle,
   ClipboardCheck,
   Trophy,
   type LucideIcon,
@@ -39,30 +35,6 @@ export const FEATURE_HIGHLIGHTS: {
   { icon: ListChecks, title: 'Interactive MCQs', description: 'Questions launched during the lesson.' },
   { icon: Zap, title: 'Instant Feedback', description: 'Results the moment a question closes.' },
   { icon: Users, title: 'Scalable', description: 'From one classroom to an institution.' },
-];
-
-export const PRODUCT_TRAINERS: {
-  icon: LucideIcon;
-  title: string;
-  description: string;
-}[] = [
-  { icon: Video, title: 'Live Sessions', description: 'Start and broadcast in one click.' },
-  { icon: ListChecks, title: 'Real-Time MCQs', description: 'Push questions to every student live.' },
-  { icon: BarChart3, title: 'Live Monitoring', description: 'Watch responses arrive in real time.' },
-  { icon: BarChart3, title: 'Class Statistics', description: 'Aggregated results after each session.' },
-  { icon: Settings2, title: 'Participation Control', description: 'Manage who speaks, shares, or views.' },
-];
-
-export const PRODUCT_STUDENTS: {
-  icon: LucideIcon;
-  title: string;
-  description: string;
-}[] = [
-  { icon: DoorOpen, title: 'Join Sessions', description: 'Enter with a single click.' },
-  { icon: Video, title: 'Watch Live', description: 'Clear, focused teaching stream.' },
-  { icon: HelpCircle, title: 'Answer MCQs', description: 'Respond the moment questions launch.' },
-  { icon: Zap, title: 'Instant Feedback', description: 'Know if you were right immediately.' },
-  { icon: ClipboardCheck, title: 'Track Progress', description: 'Your accuracy across every session.' },
 ];
 
 export const FEATURES: {
@@ -94,37 +66,6 @@ export const HOW_IT_WORKS: {
   { icon: Trophy, step: '07', title: 'Results delivered' },
 ];
 
-export const COMPARISON: {
-  traditional: string[];
-  approach: string[];
-} = {
-  traditional: [
-    'Passive viewing',
-    'Delayed assessment',
-    'Limited interaction',
-    'Separate learning and assessment',
-  ],
-  approach: [
-    'Live participation',
-    'Real-time MCQs',
-    'Instant feedback',
-    'Integrated learning and assessment',
-  ],
-};
-
-export const TECHNOLOGY_STACK: {
-  icon: LucideIcon;
-  category: string;
-  placeholder: string;
-}[] = [
-  { icon: MonitorPlay, category: 'Frontend', placeholder: 'To be announced' },
-  { icon: Settings2, category: 'Backend', placeholder: 'To be announced' },
-  { icon: BarChart3, category: 'Database', placeholder: 'To be announced' },
-  { icon: Radio, category: 'Real-Time', placeholder: 'To be announced' },
-  { icon: Lock, category: 'Authentication', placeholder: 'To be announced' },
-  { icon: CircleCheck, category: 'Cloud / Deploy', placeholder: 'To be announced' },
-];
-
 export const FOUNDERS: {
   photo: string;
   name: string;
@@ -136,37 +77,37 @@ export const FOUNDERS: {
   github: string | null;
 }[] = [
   {
-    photo: 'AsmitaImage.jpeg',
+    photo: '/AsmitaImage.jpeg',
     name: 'Asmita Paygude',
     role: 'CEO',
     year: 'Final Year · Computer Engineering',
-    bio: 'Placeholder — replace with founder background.',
+    bio: 'Leading product vision and team coordination.',
     skills: ['Leadership', 'Strategy', 'Product'],
     linkedin: '#',
     github: null,
   },
   {
-    photo: 'WhatsApp Image 2026-09-06 at 11.20.40 AM.jpeg',
+    photo: '/sakshi-madane.jpg',
     name: 'Sakshi Madane',
     role: 'CTO',
     year: 'Final Year · Computer Engineering',
-    bio: 'Strong interest in Full Stack Python Development and AI/ML',
-    skills: ['Python','Django', 'REST Framework', 'React', 'JavaScript', 'MySQL'],
+    bio: 'Strong interest in Full Stack Python Development and AI/ML.',
+    skills: ['Python', 'Django', 'REST Framework', 'React', 'JavaScript', 'MySQL'],
     linkedin: '#',
     github: '#',
   },
   {
-    photo: 'IMG_2219 - riya tilkari.jpeg',
+    photo: '/IMG_2219 - riya tilkari.jpeg',
     name: 'Riya Tilkari',
     role: 'CMO',
     year: 'Final Year · Computer Engineering',
-    bio: 'Placeholder — replace with marketing experience.',
+    bio: 'Driving marketing strategy and brand presence.',
     skills: ['Marketing', 'Branding', 'Content'],
     linkedin: '#',
     github: null,
   },
   {
-    photo: 'file_0000000018947206b5bb981076adcbc5 - vaishnavi dhole.png',
+    photo: '/file_0000000018947206b5bb981076adcbc5 - vaishnavi dhole.png',
     name: 'Vaishnavi Dhole',
     role: 'COO',
     year: 'Final Year · Computer Engineering',
@@ -176,103 +117,92 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: 'IMG_20260904_185137 - Pragati Rajput.jpg',
+    photo: '/IMG_20260904_185137 - Pragati Rajput.jpg',
     name: 'Pragati Rajput',
+    role: 'Developer',
     year: 'Final Year · Computer Engineering',
-    bio: 'Placeholder — replace with technical skills.',
+    bio: 'Focused on frontend development and AI/ML integration.',
     skills: ['Java', 'Frontend Development', 'AI/ML', 'SQL & Databases'],
     linkedin: '#',
     github: '#',
   },
   {
-    photo: 'IMG_20260819_230753 - Shreya Nikkam.jpg',
+    photo: '/IMG_20260819_230753 - Shreya Nikkam.jpg',
     name: 'Shreya Nikkam',
+    role: 'Data Analyst',
     year: 'Final Year · Computer Engineering',
-    bio: 'Placeholder — replace with design experience.',
+    bio: 'Data visualization and analytics specialist.',
     skills: ['Python', 'SQL', 'Excel', 'Power BI', 'Tableau'],
     linkedin: '#',
     github: null,
   },
   {
-    photo: 'IMG-20260904-WA0083 - Patel Chetna.jpg',
+    photo: '/IMG-20260904-WA0083 - Patel Chetna.jpg',
     name: 'Chetna Patel',
+    role: 'Data Analyst',
     year: 'Final Year · Computer Engineering',
-    bio: 'Placeholder — replace with research focus.',
-    skills: ['Data Science','Data Analysis'],
+    bio: 'Data science and analytics for assessment insights.',
+    skills: ['Data Science', 'Data Analysis'],
     linkedin: '#',
     github: null,
   },
-
   {
-    photo: 'Gemini_Generated_Image_f1y49zf1y49zf1y4 - Gitanjali Narute.png',
+    photo: '/Gemini_Generated_Image_f1y49zf1y49zf1y4 - Gitanjali Narute.png',
     name: 'Gitanjali Narute',
+    role: 'Developer',
     year: 'Final Year · Computer Engineering',
-    bio: 'Placeholder — replace with research focus.',
-    skills: ['Java' , 'OOP','Basic Python'],
+    bio: 'Java and OOP development specialist.',
+    skills: ['Java', 'OOP', 'Basic Python'],
     linkedin: '#',
     github: null,
   },
   {
-    photo: '35714c03-e529-4fed-8e36-c9305f333971 - Poonam Yadav.png',
+    photo: '/35714c03-e529-4fed-8e36-c9305f333971 - Poonam Yadav.png',
     name: 'Poonam Yadav',
+    role: 'Developer',
     year: 'Final Year · Computer Engineering',
-    bio: 'Placeholder — replace with research focus.',
+    bio: 'Python and database development.',
     skills: ['Python', 'SQL'],
     linkedin: '#',
     github: null,
   },
   {
-    photo: 'SAVE_20241225_171758 - Payal Sawant.jpg',
+    photo: '/SAVE_20241225_171758 - Payal Sawant.jpg',
     name: 'Payal Sawant',
+    role: 'Developer',
     year: 'Final Year · Computer Engineering',
-    bio: 'Full-stack development',
+    bio: 'Full-stack development across frontend and backend.',
     skills: ['Java', 'HTML', 'CSS', 'JavaScript', 'SQL'],
     linkedin: '#',
     github: null,
   },
   {
-    photo: 'file_000000001d0071fa9a525b6d708237ef - Dnyaneshwari Sayam.png',
+    photo: '/file_000000001d0071fa9a525b6d708237ef - Dnyaneshwari Sayam.png',
     name: 'Dnyaneshwari Sayam',
-    year: 'Final Year · Mechanical Engineering',
-    bio: 'App developer',
-    skills: ['App development'],
+    role: 'App Developer',
+    year: 'Final Year · Computer Engineering',
+    bio: 'Mobile application development.',
+    skills: ['App Development'],
     linkedin: '#',
     github: null,
   },
   {
-    photo: 'WhatsApp Image 2026-09-05 at 1.16.24 PM.jpeg',
+    photo: '/WhatsApp Image 2026-09-05 at 1.16.24 PM.jpeg',
     name: 'Dhriti Palange',
+    role: 'Data Analyst',
     year: 'Final Year · Computer Engineering',
-    bio: 'Data Science',
-    skills: ['Python','Advance Excel'],
-    linkedin: '#',
-    github: null,
-  },
-  {
-    photo: 'WhatsApp Image 2026-09-06 at 1.39.06 PM.jpeg',
-    name: 'Priyanka Gupte',
-    year: 'Final Year · Computer Engineering',
-    bio: 'Data Analyst',
-    skills: ['Power bi', 'Python', 'SQL'],
-    linkedin: '#',
-    github: null,
-  },
-  {
-    photo: 'WhatsApp Image 2026-09-06 at 1.19.48 PM.jpeg',
-    name: 'Pratiksha Das',
-    year: 'Final Year · Computer Engineering',
-    bio: 'Data Analyst',
-    skills: ['Power bi', 'Python', 'SQL'],
+    bio: 'Data science and advanced analytics.',
+    skills: ['Python', 'Advanced Excel'],
     linkedin: '#',
     github: null,
   },
 ];
 
-
 export const MENTOR = {
-  photo: 'WhatsApp Image 2026-09-05 at 1.00.44 PM.jpeg',
+  photo: '/WhatsApp Image 2026-09-05 at 1.00.44 PM.jpeg',
   name: 'Prof. Mayur Raut',
-  designation: 'TPO, Sinhgad Institute of Technology, Lonavala',
+  designation: 'Training and Placement Officer',
+  department: 'Sinhgad Institute of Technology, Lonavala',
   description:
     'Supporting students through career guidance, industry engagement, training, and placement opportunities.',
 };
@@ -280,7 +210,7 @@ export const MENTOR = {
 export const COMPANY = {
   name: 'Cohort Live',
   tagline: 'Learning that happens in real time.',
-  email: 'contact@CohortLive.example',
+  email: 'contact@cohortlive.example',
   college: 'Sinhgad Institute of Technology, Lonavala',
   linkedin: '#',
   github: '#',

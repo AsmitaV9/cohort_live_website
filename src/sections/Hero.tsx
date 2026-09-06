@@ -80,7 +80,7 @@ function PlatformMockup() {
           </div>
           <div className="mx-auto flex items-center gap-1.5 rounded-lg bg-white px-3 py-1 text-xs text-ink-400 ring-1 ring-ink-200">
             <span className="h-1.5 w-1.5 rounded-full bg-green-400" />
-            livelearn.app/session
+            cohortlive.app/session
           </div>
         </div>
 
