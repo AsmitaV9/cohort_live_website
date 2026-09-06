@@ -199,7 +199,7 @@ export const FOUNDERS: {
 ];
 
 export const MENTOR = {
-  photo: '/WhatsApp Image 2026-09-05 at 1.00.44 PM.jpeg',
+  photo: 'WhatsApp Image 2026-09-05 at 9.38.04 PM.jpeg',
   name: 'Prof. Mayur Raut',
   designation: 'Training and Placement Officer',
   department: 'Sinhgad Institute of Technology, Lonavala',
