@@ -139,7 +139,7 @@ export const FOUNDERS: {
   },
 
   {
-    photo: '/IMG_20260904_185137 - Pragati Rajput.jpg',
+    photo: 'WhatsApp Image 2026-09-07 at 1.34.11 PM.jpeg',
     name: 'Pragati Rajput',
     role: 'Developer',
     year: 'Final Year · Computer Engineering',
