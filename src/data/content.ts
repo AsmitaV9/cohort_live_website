@@ -107,7 +107,7 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: '/sakshi-madane.jpg',
+    photo: 'WhatsApp Image 2026-09-06 at 11.20.40 AM (1).jpeg',
     name: 'Sakshi Madane',
     role: 'COO',
     year: 'Final Year · Computer Engineering',
