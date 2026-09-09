@@ -117,6 +117,17 @@ export const FOUNDERS: {
     github: '#',
   },
   {
+    photo: 'file_00000000cc7c7208ba238348e628ca66 - Shruti Dharpale.png',
+    name: 'Shruti Dharpale',
+    role: 'Developer',
+    year: 'Final Year · Computer Engineering',
+    bio: 'Full Stack Development',
+    skills: ['HTML','CSS','React'],
+    linkedin: '#',
+    github: null,
+  },
+
+  {
     photo: '/IMG_2219 - riya tilkari.jpeg',
     name: 'Riya Tilkari',
     role: 'CHRO',
@@ -178,7 +189,7 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: '/SAVE_20241225_171758 - Payal Sawant.jpg',
+    photo: 'ChatGPT Image Sep 8, 2026, 10_55_41 AM - Payal Sawant.png',
     name: 'Payal Sawant',
     role: 'Developer',
     year: 'Final Year · Computer Engineering',
@@ -194,6 +205,36 @@ export const FOUNDERS: {
     year: 'Final Year · Computer Engineering',
     bio: 'Mobile application development.',
     skills: ['App Development'],
+    linkedin: '#',
+    github: null,
+  },
+  {
+    photo: 'IMG-20260521-WA0019 - Madhuri Sargaiyye.jpg',
+    name: 'Madhuri Sargaiyye',
+    role: 'Python Developer',
+    year: 'Final Year · Computer Engineering',
+    bio: 'Mobile application development.',
+    skills: ['Python','Database'],
+    linkedin: '#',
+    github: null,
+  },
+  {
+    photo: 'IMG_20260820_114549 - Supriya bhure.jpg',
+    name: 'Supriya Bhure',
+    role: 'Python Developer',
+    year: 'Final Year · Computer Engineering',
+    bio: 'Exploring AI, Cloud & DevOps ',
+    skills: ['Java','Web Development'],
+    linkedin: '#',
+    github: null,
+  },
+  {
+    photo: 'IMG_20260819_201303 - shreya khatake.png',
+    name: 'Shreya Khatake',
+    role: 'Python Developer',
+    year: 'Final Year · Computer Engineering',
+    bio: 'Web Development',
+    skills: ['Java','Web Development'],
     linkedin: '#',
     github: null,
   },
@@ -218,13 +259,22 @@ export const FOUNDERS: {
     linkedin: '#',
     github: null,
   },
+  {
+    photo: '1788710839987 - Vaishnavi Bhosale.png',
+    name: 'Vaishnavi Bhosale',
+    role: 'Data Analyst',
+    year: 'Final Year · Computer Engineering',
+    bio: 'Python Developer',
+    skills: ['Python'],
+    linkedin: '#',
+    github: null,
+  },
 ];
 
 export const MENTOR = {
   photo: '/WhatsApp Image 2026-09-05 at 9.38.04 PM.jpeg',
   name: 'Prof. Mayur Raut',
-  designation: 'Training and Placement Officer',
-  department: 'Sinhgad Institute of Technology, Lonavala',
+  designation: 'Mentor',
   description:
     'Supporting students through career guidance, industry engagement, training, and placement opportunities.',
 };
