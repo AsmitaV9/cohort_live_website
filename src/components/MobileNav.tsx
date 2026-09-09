@@ -58,7 +58,7 @@ export default function MobileNav({ onLaunch }: Props) {
               }}
               className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl bg-ink-900 px-4 py-3 text-base font-semibold text-white"
             >
-              Launch Platform
+              Book a Demo / Purchase
               <ArrowRight className="h-4 w-4" />
             </button>
           </div>
