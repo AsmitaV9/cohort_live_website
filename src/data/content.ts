@@ -283,7 +283,4 @@ export const COMPANY = {
   name: 'Cohort Live',
   tagline: 'Learning that happens in real time.',
   email: 'contact@cohortlive.example',
-  college: 'Sinhgad Institute of Technology, Lonavala',
-  linkedin: '#',
-  github: '#',
 };
