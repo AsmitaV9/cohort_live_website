@@ -97,7 +97,7 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: '/IMG_20260316_171154289_HDR - DHRITI PALANGE.jpg',
+    photo: 'WhatsApp Image 2026-09-05 at 1.16.24 PM (1).jpeg',
     name: 'Dhriti Palange',
     role: 'CMO',
     year: 'Final Year · Computer Engineering',
