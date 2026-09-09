@@ -207,15 +207,26 @@ export const FOUNDERS: {
     github: null,
   },
   {
-    photo: '/file_000000001d0071fa9a525b6d708237ef - Dnyaneshwari Sayam.png',
-    name: 'Dnyaneshwari Sayam',
-    role: 'App Developer',
+    photo: 'IMG-20260521-WA0019 - Madhuri Sargaiyye.jpg',
+    name: 'Madhuri Sargaiyye',
+    role: 'Developer',
     year: 'Final Year · Computer Engineering',
     bio: 'Mobile application development.',
-    skills: ['App Development'],
+    skills: ['Python','Database'],
     linkedin: '#',
     github: null,
   }, 
+  {
+    photo: 'IMG_20260820_114549 - Supriya bhure.jpg',
+    name: 'Supriya Bhure',
+    role: 'Developer',
+    year: 'Final Year · Computer Engineering',
+    bio: 'Exploring AI, Cloud & DevOps',
+    skills: ['Java','Web Development'],
+    linkedin: '#',
+    github: null,
+  }, 
+
 
   {
     photo: 'WhatsApp Image 2026-09-07 at 12.49.27 PM.jpeg',
