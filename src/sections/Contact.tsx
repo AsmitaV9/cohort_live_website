@@ -21,7 +21,7 @@ export default function Contact() {
               Contact
             </span>
             <h2 className="mt-4 text-4xl font-extrabold leading-[1.05] tracking-tight text-ink-900 sm:text-5xl">
-              Let's talk.
+              Admissions & Enrollment
             </h2>
           </ScrollReveal>
           <ScrollReveal delay="reveal-delay-1" className="lg:col-span-7 lg:pt-2">
