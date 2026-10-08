@@ -1,5 +1,6 @@
 import { ArrowRight } from 'lucide-react';
 import { NAV_LINKS, COMPANY } from '@/data/content';
+import { LINKS } from '@/config/links';
 
 type Props = {
   onLaunch: () => void;
@@ -38,13 +39,21 @@ export default function Navbar({ onLaunch }: Props) {
           </ul>
 
           {/* CTA */}
-          <button
-            onClick={onLaunch}
-            className="group inline-flex items-center gap-1.5 rounded-xl bg-ink-900 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-ink-800"
-          >
-            Book a Demo / Purchase
-            <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
-          </button>
+          <div className="flex items-center gap-2">
+            <a
+              href={LINKS.login}
+              className="hidden items-center rounded-xl border border-ink-200 bg-white px-4 py-2.5 sm:inline-flex text-sm font-semibold text-ink-700 transition hover:border-ink-300 hover:bg-ink-50"
+            >
+              Login
+            </a>
+            <button
+              onClick={onLaunch}
+              className="group inline-flex items-center gap-1.5 rounded-xl bg-ink-900 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-ink-800"
+            >
+              Book a Demo / Purchase
+              <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
+            </button>
+          </div>
         </nav>
       </div>
     </header>

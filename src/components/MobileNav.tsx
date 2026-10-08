@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X, GraduationCap, ArrowRight } from 'lucide-react';
 import { NAV_LINKS, COMPANY } from '@/data/content';
+import { LINKS } from '@/config/links';
 
 type Props = {
   onLaunch: () => void;
@@ -51,12 +52,18 @@ export default function MobileNav({ onLaunch }: Props) {
                 </li>
               ))}
             </ul>
+            <a
+              href={LINKS.login}
+              className="mt-6 flex w-full items-center justify-center rounded-xl border border-ink-200 px-4 py-3 text-base font-semibold text-ink-700"
+            >
+              Login
+            </a>
             <button
               onClick={() => {
                 setOpen(false);
                 onLaunch();
               }}
-              className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl bg-ink-900 px-4 py-3 text-base font-semibold text-white"
+              className="mt-3 flex w-full items-center justify-center gap-2 rounded-xl bg-ink-900 px-4 py-3 text-base font-semibold text-white"
             >
               Book a Demo / Purchase
               <ArrowRight className="h-4 w-4" />

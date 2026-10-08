@@ -9,6 +9,7 @@ import ProblemSolution from '@/sections/ProblemSolution';
 import About from '@/sections/About';
 import Product from '@/sections/Product';
 import Features from '@/sections/Features';
+import ProctoredMocks from '@/sections/ProctoredMocks';
 import HowItWorks from '@/sections/HowItWorks';
 import Technology from '@/sections/Technology';
 import Team from '@/sections/Team';
@@ -29,6 +30,7 @@ export default function App() {
         <ProblemSolution />
         <Product />
         <Features />
+        <ProctoredMocks />
         <HowItWorks />
         <About />
         <Technology />

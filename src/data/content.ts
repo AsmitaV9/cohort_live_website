@@ -20,6 +20,7 @@ export const NAV_LINKS = [
   { label: 'About', href: '#about' },
   { label: 'Product', href: '#product' },
   { label: 'Features', href: '#features' },
+  { label: 'GATE Mocks', href: '#gate-mocks' },
   { label: 'Process', href: '#how-it-works' },
   { label: 'Team', href: '#team' },
   { label: 'Mentor', href: '#mentor' },

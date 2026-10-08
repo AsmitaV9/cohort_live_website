@@ -1,5 +1,6 @@
 import { Linkedin, Github, Mail } from 'lucide-react';
 import { NAV_LINKS, COMPANY } from '@/data/content';
+import { LINKS } from '@/config/links';
 
 export default function Footer() {
   return (
@@ -53,6 +54,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2.5">
               <li><a href="#" className="text-sm text-ink-400 transition hover:text-brand-400">Privacy Policy</a></li>
               <li><a href="#" className="text-sm text-ink-400 transition hover:text-brand-400">Terms of Service</a></li>
+              <li><a href={LINKS.trainerLogin} className="text-sm text-ink-400 transition hover:text-brand-400">Trainer Login</a></li>
               <li className="pt-2 text-sm text-ink-600">{COMPANY.college}</li>
             </ul>
           </div>

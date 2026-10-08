@@ -1,4 +1,5 @@
-import { ArrowRight, Users, Radio, Zap, Play } from 'lucide-react';
+import { ArrowRight, Users, Radio, Zap, Play, ClipboardCheck, Download } from 'lucide-react';
+import { LINKS } from '@/config/links';
 
 type Props = {
   onLaunch: () => void;
@@ -37,7 +38,23 @@ export default function Hero({ onLaunch }: Props) {
             together in one connected environment.
           </p>
 
-          <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row sm:flex-wrap">
+            <a
+              href={LINKS.mockTest}
+              className="group inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 px-6 py-3.5 text-base font-semibold text-white shadow-xl shadow-brand-600/20 transition hover:bg-brand-700"
+            >
+              <ClipboardCheck className="h-5 w-5" />
+              Take a Mock Test
+            </a>
+            <a
+              href={LINKS.downloadApp}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-xl border border-ink-200 bg-white px-6 py-3.5 text-base font-semibold text-ink-700 transition hover:border-ink-300 hover:bg-ink-50"
+            >
+              <Download className="h-5 w-5" />
+              Download App
+            </a>
             <button
               onClick={onLaunch}
               className="group inline-flex items-center justify-center gap-2 rounded-xl bg-ink-900 px-6 py-3.5 text-base font-semibold text-white shadow-xl shadow-ink-900/15 transition hover:bg-ink-800"
