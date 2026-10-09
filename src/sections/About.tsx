@@ -1,10 +1,10 @@
-import { Target, Eye, Heart, Users, Linkedin, Github } from 'lucide-react';
+import { Target, Eye, Heart, Users, Linkedin, Github, Check } from 'lucide-react';
 import ScrollReveal from '@/components/ScrollReveal';
 import { FOUNDERS, MENTOR } from '@/data/content';
 
 export default function About() {
   return (
-    <section id="about" className="py-24 lg:py-36">
+    <section id="about" className="pt-24 pb-8 lg:pt-36 lg:pb-12">
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         {/* Who We Are — editorial split, no filler cards */}
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16">
@@ -28,6 +28,17 @@ export default function About() {
               What started as an academic project is becoming a product —
               one designed to make every student an active participant.
             </p>
+            <p className="mt-8 text-sm font-semibold uppercase tracking-[0.15em] text-ink-400">
+              Now also offering
+            </p>
+            <ul className="mt-4 space-y-3">
+              {MOCK_TEST_POINTS.map((point) => (
+                <li key={point} className="flex items-start gap-3 text-base leading-relaxed text-ink-600">
+                  <Check className="mt-1 h-4 w-4 flex-shrink-0 text-brand-500" />
+                  {point}
+                </li>
+              ))}
+            </ul>
           </ScrollReveal>
         </div>
 
@@ -136,14 +147,14 @@ export default function About() {
           </div>
         </div>
 
-        {/* Our Mentor — dark card, same look as the former Mentor section */}
+        {/* Leadership — dark card */}
         <div className="pt-24 lg:pt-32">
           <ScrollReveal>
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-600">
               Guided By
             </span>
             <h3 className="mt-4 text-3xl font-extrabold leading-[1.05] tracking-tight text-ink-900 sm:text-4xl">
-              Our Mentor
+              Leadership
             </h3>
           </ScrollReveal>
 
@@ -172,6 +183,14 @@ export default function About() {
     </section>
   );
 }
+
+const MOCK_TEST_POINTS = [
+  'Proctored GATE mock tests for CS/IT, EnTC, Electrical and Mechanical',
+  'Real GATE pattern: MCQ, MSQ and NAT questions with negative marking',
+  'Camera-based proctoring with face detection, tab-switch and fullscreen monitoring',
+  'Live proctor dashboard that monitors 100+ students at once',
+  'Detailed scorecards, ranks and downloadable certificates',
+];
 
 const VALUES = [
   { icon: Users, title: 'Collaboration' },

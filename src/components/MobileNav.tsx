@@ -3,11 +3,7 @@ import { Menu, X, GraduationCap, ArrowRight } from 'lucide-react';
 import { NAV_LINKS, COMPANY } from '@/data/content';
 import { LINKS } from '@/config/links';
 
-type Props = {
-  onLaunch: () => void;
-};
-
-export default function MobileNav({ onLaunch }: Props) {
+export default function MobileNav() {
   const [open, setOpen] = useState(false);
 
   return (
@@ -58,16 +54,13 @@ export default function MobileNav({ onLaunch }: Props) {
             >
               Login
             </a>
-            <button
-              onClick={() => {
-                setOpen(false);
-                onLaunch();
-              }}
+            <a
+              href={LINKS.register}
               className="mt-3 flex w-full items-center justify-center gap-2 rounded-xl bg-ink-900 px-4 py-3 text-base font-semibold text-white"
             >
-              Book a Demo / Purchase
+              Register
               <ArrowRight className="h-4 w-4" />
-            </button>
+            </a>
           </div>
         </div>
       )}

@@ -15,6 +15,8 @@ export const APK_URL =
 export const LINKS = {
   mockTest: `${APP_URL}/student`,
   login: `${APP_URL}/login`,
+  // Student registration is not built in the portal yet; switch to its route when it lands.
+  register: `${APP_URL}/login`,
   trainerLogin: `${APP_URL}/trainer`,
   downloadApp: APK_URL,
 };

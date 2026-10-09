@@ -23,7 +23,7 @@ export default function Hero({ onLaunch }: Props) {
               <span className="absolute inline-flex h-full w-full animate-pulse-ring rounded-full bg-brand-400" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-brand-500" />
             </span>
-            EdTech Startup · Real-Time Learning
+            EdTech Startup · Live Classes & GATE Mocks
           </div>
 
           <h1 className="mt-8 text-5xl font-extrabold leading-[1.02] tracking-tight text-ink-900 sm:text-6xl lg:text-7xl text-balance">
@@ -34,8 +34,8 @@ export default function Hero({ onLaunch }: Props) {
           </h1>
 
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink-500 text-balance">
-            Live teaching, real-time assessment, and student participation —
-            together in one connected environment.
+            Live classes with real-time assessment, plus proctored GATE mock
+            tests — together in one connected platform.
           </p>
 
           <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row sm:flex-wrap">

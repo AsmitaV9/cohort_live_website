@@ -25,7 +25,7 @@ export const FEATURE_HIGHLIGHTS: {
   { icon: Radio, title: 'Live Learning', description: 'Real-time sessions, not replays.' },
   { icon: ListChecks, title: 'Interactive MCQs', description: 'Questions launched during the lesson.' },
   { icon: Zap, title: 'Instant Feedback', description: 'Results the moment a question closes.' },
-  { icon: Users, title: 'Scalable', description: 'From one classroom to an institution.' },
+  { icon: ShieldCheck, title: 'Proctored GATE Mocks', description: 'Camera-monitored tests with GATE marking.' },
 ];
 
 export const FEATURES: {
@@ -257,7 +257,7 @@ export const MENTOR: {
 } = {
   photo: '/WhatsApp Image 2026-09-05 at 9.38.04 PM.jpeg',
   name: 'Prof. Mayur Raut',
-  designation: 'Mentor',
+  designation: 'Founder, MD',
   description:
     'Supporting students through career guidance, industry engagement, training, and placement opportunities.',
 };
@@ -271,6 +271,6 @@ export const COMPANY: {
   github?: string;
 } = {
   name: 'Cohort Live',
-  tagline: 'Learning that happens in real time.',
+  tagline: 'Live classes and proctored GATE mock tests, in real time.',
   email: 'contact@cohortlive.example',
 };

@@ -18,7 +18,7 @@ export default function Features() {
               Everything in one live session.
             </h2>
             <p className="mt-5 text-base leading-relaxed text-ink-500">
-              Teaching, participation, and assessment — connected, in real time.
+              Teaching, participation and assessment in every live class — plus proctored GATE mock tests.
             </p>
           </div>
         </ScrollReveal>

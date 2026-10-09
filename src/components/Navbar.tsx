@@ -2,11 +2,7 @@ import { ArrowRight } from 'lucide-react';
 import { NAV_LINKS, COMPANY } from '@/data/content';
 import { LINKS } from '@/config/links';
 
-type Props = {
-  onLaunch: () => void;
-};
-
-export default function Navbar({ onLaunch }: Props) {
+export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
       <div className="glass border-b border-ink-200/40">
@@ -46,13 +42,13 @@ export default function Navbar({ onLaunch }: Props) {
             >
               Login
             </a>
-            <button
-              onClick={onLaunch}
+            <a
+              href={LINKS.register}
               className="group inline-flex items-center gap-1.5 rounded-xl bg-ink-900 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-ink-800"
             >
-              Book a Demo / Purchase
+              Register
               <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
-            </button>
+            </a>
           </div>
         </nav>
       </div>
