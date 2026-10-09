@@ -7,23 +7,13 @@ import {
   BarChart3,
   ShieldCheck,
   Lock,
-  MessageSquare,
-  LogIn,
-  PlayCircle,
-  DoorOpen,
-  ClipboardCheck,
-  Trophy,
   type LucideIcon,
 } from 'lucide-react';
 
 export const NAV_LINKS = [
   { label: 'About', href: '#about' },
-  { label: 'Product', href: '#product' },
   { label: 'Features', href: '#features' },
   { label: 'GATE Mocks', href: '#gate-mocks' },
-  { label: 'Process', href: '#how-it-works' },
-  { label: 'Team', href: '#team' },
-  { label: 'Mentor', href: '#mentor' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -51,20 +41,6 @@ export const FEATURES: {
   { icon: ShieldCheck, title: 'Permissions', description: 'Control who speaks, shares, or views.' },
   { icon: Users, title: 'Scalable', description: 'One classroom or an entire institution.' },
   { icon: Lock, title: 'Role-Based Access', description: 'Secure, separated student and trainer roles.' },
-];
-
-export const HOW_IT_WORKS: {
-  icon: LucideIcon;
-  step: string;
-  title: string;
-}[] = [
-  { icon: LogIn, step: '01', title: 'Trainer logs in' },
-  { icon: PlayCircle, step: '02', title: 'Starts a live session' },
-  { icon: DoorOpen, step: '03', title: 'Students join' },
-  { icon: ListChecks, step: '04', title: 'Trainer launches an MCQ' },
-  { icon: MessageSquare, step: '05', title: 'Students answer' },
-  { icon: ClipboardCheck, step: '06', title: 'System evaluates' },
-  { icon: Trophy, step: '07', title: 'Results delivered' },
 ];
 
 export const FOUNDERS: {
@@ -272,7 +248,13 @@ export const FOUNDERS: {
   },
 ];
 
-export const MENTOR = {
+export const MENTOR: {
+  photo: string;
+  name: string;
+  designation: string;
+  department?: string;
+  description: string;
+} = {
   photo: '/WhatsApp Image 2026-09-05 at 9.38.04 PM.jpeg',
   name: 'Prof. Mayur Raut',
   designation: 'Mentor',
@@ -280,7 +262,14 @@ export const MENTOR = {
     'Supporting students through career guidance, industry engagement, training, and placement opportunities.',
 };
 
-export const COMPANY = {
+export const COMPANY: {
+  name: string;
+  tagline: string;
+  email: string;
+  college?: string;
+  linkedin?: string;
+  github?: string;
+} = {
   name: 'Cohort Live',
   tagline: 'Learning that happens in real time.',
   email: 'contact@cohortlive.example',

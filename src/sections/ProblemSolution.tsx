@@ -1,4 +1,4 @@
-import { ArrowRight, X, Check } from 'lucide-react';
+import { X, Check } from 'lucide-react';
 import ScrollReveal from '@/components/ScrollReveal';
 
 export default function ProblemSolution() {
@@ -54,18 +54,6 @@ export default function ProblemSolution() {
                 </div>
               </div>
             ))}
-          </div>
-        </ScrollReveal>
-
-        <ScrollReveal delay="reveal-delay-2">
-          <div className="mt-10 flex justify-center">
-            <a
-              href="#how-it-works"
-              className="group inline-flex items-center gap-1.5 text-sm font-semibold text-brand-600 transition hover:text-brand-700"
-            >
-              See how it works
-              <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
-            </a>
           </div>
         </ScrollReveal>
       </div>

@@ -63,7 +63,7 @@ export default function Hero({ onLaunch }: Props) {
               <ArrowRight className="h-5 w-5 transition group-hover:translate-x-0.5" />
             </button>
             <a
-              href="#team"
+              href="#our-team"
               className="inline-flex items-center justify-center gap-2 rounded-xl border border-ink-200 bg-white px-6 py-3.5 text-base font-semibold text-ink-700 transition hover:border-ink-300 hover:bg-ink-50"
             >
               Meet Our Team

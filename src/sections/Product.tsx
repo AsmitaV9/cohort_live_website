@@ -1,4 +1,4 @@
-import { Video, ListChecks, BarChart3, Settings2, DoorOpen, HelpCircle, Zap, ClipboardCheck, Users } from 'lucide-react';
+import { Video, ListChecks, BarChart3, Settings2, DoorOpen, HelpCircle, Zap, ClipboardCheck } from 'lucide-react';
 import ScrollReveal from '@/components/ScrollReveal';
 
 export default function Product() {

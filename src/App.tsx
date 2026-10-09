@@ -10,10 +10,7 @@ import About from '@/sections/About';
 import Product from '@/sections/Product';
 import Features from '@/sections/Features';
 import ProctoredMocks from '@/sections/ProctoredMocks';
-import HowItWorks from '@/sections/HowItWorks';
 import Technology from '@/sections/Technology';
-import Team from '@/sections/Team';
-import Mentor from '@/sections/Mentor';
 import Contact from '@/sections/Contact';
 
 export default function App() {
@@ -31,11 +28,8 @@ export default function App() {
         <Product />
         <Features />
         <ProctoredMocks />
-        <HowItWorks />
         <About />
         <Technology />
-        <Team />
-        <Mentor />
         <Contact />
       </main>
 
