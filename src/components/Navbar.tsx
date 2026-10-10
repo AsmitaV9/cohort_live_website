@@ -1,6 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 import { NAV_LINKS, COMPANY } from '@/data/content';
 import { LINKS } from '@/config/links';
+import ThemeToggle from '@/components/ThemeToggle';
 
 export default function Navbar() {
   return (
@@ -36,6 +37,7 @@ export default function Navbar() {
 
           {/* CTA */}
           <div className="flex items-center gap-2">
+            <ThemeToggle />
             <a
               href={LINKS.login}
               className="hidden items-center rounded-xl border border-ink-200 bg-white px-4 py-2.5 sm:inline-flex text-sm font-semibold text-ink-700 transition hover:border-ink-300 hover:bg-ink-50"
