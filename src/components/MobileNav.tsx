@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { Menu, X, GraduationCap, ArrowRight } from 'lucide-react';
-import { NAV_LINKS, COMPANY } from '@/data/content';
+import { Menu, X, ArrowRight } from 'lucide-react';
+import { NAV_LINKS } from '@/data/content';
+import Logo from '@/components/Logo';
 import { LINKS } from '@/config/links';
 
 export default function MobileNav() {
@@ -21,12 +22,7 @@ export default function MobileNav() {
           <div className="absolute inset-0 bg-ink-950/50 backdrop-blur-sm" onClick={() => setOpen(false)} />
           <div className="absolute right-0 top-0 h-full w-80 max-w-[85vw] overflow-y-auto bg-white p-6 shadow-2xl">
             <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2.5">
-                <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-ink-900 text-brand-400">
-                  <GraduationCap className="h-5 w-5" />
-                </div>
-                <span className="text-lg font-bold text-ink-900 font-display">{COMPANY.name}</span>
-              </div>
+              <Logo size={32} />
               <button
                 onClick={() => setOpen(false)}
                 className="rounded-lg p-2 text-ink-400 hover:bg-ink-100"

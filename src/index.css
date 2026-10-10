@@ -168,6 +168,9 @@
 /* ===== Dark mode (toggle in the navbar; default follows the device) =====
    Same dark palette as the portal. Only the light-surface utilities are remapped;
    sections that are already dark keep their look. */
+/* CohortLive logo colours (light / dark; .logo-on-dark forces dark, e.g. the always-dark footer) */
+:root { --logo-a: #1E40AF; --logo-b: #3B82F6; --logo-text: #0F172A; }
+[data-theme='dark'], .logo-on-dark { --logo-a: #3B82F6; --logo-b: #93C5FD; --logo-text: #E5E7EB; }
 [data-theme='dark'] { color-scheme: dark; }
 [data-theme='dark'] body { background-color: #0b1220; color: #e5e7eb; }
 [data-theme='dark'] .bg-white { background-color: #111827; }

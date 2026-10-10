@@ -1,5 +1,6 @@
 import { ArrowRight } from 'lucide-react';
-import { NAV_LINKS, COMPANY } from '@/data/content';
+import { NAV_LINKS } from '@/data/content';
+import Logo from '@/components/Logo';
 import { LINKS } from '@/config/links';
 import ThemeToggle from '@/components/ThemeToggle';
 
@@ -9,16 +10,8 @@ export default function Navbar() {
       <div className="glass border-b border-ink-200/40">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3.5 lg:px-8">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-2.5">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-ink-900 text-brand-400">
-              <svg viewBox="0 0 24 24" className="h-4.5 w-4.5" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
-                <path d="M6 12v5c3 3 9 3 12 0v-5" />
-              </svg>
-            </div>
-            <span className="text-base font-bold tracking-tight text-ink-900 font-display">
-              {COMPANY.name}
-            </span>
+          <a href="#home" className="flex items-center" aria-label="CohortLive home">
+            <Logo size={32} />
           </a>
 
           {/* Desktop nav */}

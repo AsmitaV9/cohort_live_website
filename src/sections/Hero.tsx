@@ -1,5 +1,6 @@
 import { ArrowRight, Users, Radio, Zap, Play, ClipboardCheck, Download } from 'lucide-react';
 import { LINKS } from '@/config/links';
+import { TAGLINE } from '@/components/Logo';
 
 type Props = {
   onLaunch: () => void;
@@ -33,7 +34,9 @@ export default function Hero({ onLaunch }: Props) {
             </span>
           </h1>
 
-          <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink-500 text-balance">
+          <p className="mt-5 text-xl font-semibold tracking-tight text-brand-600 sm:text-2xl">{TAGLINE}</p>
+
+          <p className="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-ink-500 text-balance">
             Live classes with real-time assessment, plus proctored GATE mock
             tests — together in one connected platform.
           </p>
